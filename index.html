@@ -1,107 +1,454 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>The Singapore STEM Club</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
-    <link rel="stylesheet" href="assets/css/Conv_nastynasty.css">
-    <link rel="stylesheet" href="assets/css/GothamRounded-Bold.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Bold-BS4-Animated-Back-To-Top.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/divider-text-middle.css">
-    <link rel="stylesheet" href="assets/css/Map-Clean.css">
-    <link rel="stylesheet" href="assets/css/Social-Icons.css">
-    <link rel="stylesheet" href="assets/css/untitled-1.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
-<!-- Primary Meta Tags -->
-<title>The Singapore STEM Club</title>
-<meta name="title" content="The Singapore STEM Club">
-<meta name="description" content="Amazing STEM-focused events for secondary students in Singapore by secondary students.">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/img/android-chrome-192x192.png"
+    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+    />
+    <link rel="stylesheet" href="assets/css/Conv_nastynasty.css" />
+    <link rel="stylesheet" href="assets/css/GothamRounded-Bold.css" />
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/Bold-BS4-Animated-Back-To-Top.css"
+    />
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css" />
+    <link rel="stylesheet" href="assets/css/divider-text-middle.css" />
+    <link rel="stylesheet" href="assets/css/Map-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Social-Icons.css" />
+    <link rel="stylesheet" href="assets/css/untitled-1.css" />
+    <link rel="stylesheet" href="assets/css/untitled.css" />
+    <!-- Primary Meta Tags -->
+    <title>The Singapore STEM Club</title>
+    <meta name="title" content="The Singapore STEM Club" />
+    <meta
+      name="description"
+      content="Amazing STEM-focused events for secondary students in Singapore by secondary students."
+    />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://metatags.io/">
-<meta property="og:title" content="The Singapore STEM Club">
-<meta property="og:description" content="Amazing STEM-focused events for secondary students in Singapore by secondary students.">
-<meta property="og:image" content="https://cdn.glitch.com/18385993-4838-4e88-9710-880ada6cd17f%2FScreen%20Shot%202020-06-08%20at%207.02.12%20PM.png?v=1591615852059">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="The Singapore STEM Club" />
+    <meta
+      property="og:description"
+      content="Amazing STEM-focused events for secondary students in Singapore by secondary students."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/18385993-4838-4e88-9710-880ada6cd17f%2FScreen%20Shot%202020-06-08%20at%207.02.12%20PM.png?v=1591615852059"
+    />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://metatags.io/">
-<meta property="twitter:title" content="The Singapore STEM Club">
-<meta property="twitter:description" content="Amazing STEM-focused events for secondary students in Singapore by secondary students.">
-<meta property="twitter:image" content="https://cdn.glitch.com/18385993-4838-4e88-9710-880ada6cd17f%2FScreen%20Shot%202020-06-08%20at%207.02.12%20PM.png?v=1591615852059">
-</head>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="The Singapore STEM Club" />
+    <meta
+      property="twitter:description"
+      content="Amazing STEM-focused events for secondary students in Singapore by secondary students."
+    />
+    <meta
+      property="twitter:image"
+      content="https://cdn.glitch.com/18385993-4838-4e88-9710-880ada6cd17f%2FScreen%20Shot%202020-06-08%20at%207.02.12%20PM.png?v=1591615852059"
+    />
+  </head>
 
-<body>
-    <header class="masthead text-center text-white" style="-webkit-box-shadow: inset 0px -200px 44px -163px rgba(52,58,64,1);-moz-box-shadow: inset 0px -200px 44px -163px rgba(52,58,64,1);box-shadow: inset 0px -200px 44px -163px rgba(52,58,64,1);filter: blur(0px);padding-top: 15vh;padding-bottom: 15vh;min-height: 105vh;">
-        <div class="masthead-content">
-            <div class="container">
-                <h3 class="masthead-heading mb-0" style="font-family: GothamRounded-Bold;font-size: 3rem;">The Singapore</h3>
-                <h1 class="masthead-heading mb-0" style="font-family: GothamRounded-Bold;font-size: 7rem;">STEM CLUB</h1>
-                <h2 class="masthead-subheading mb-0" style="font-family: Conv_nastynasty;font-size: 3em;margin-top: 24px;">Amazing STEM focused events for secondary students in Singapore by&nbsp;<strong>secondary students.</strong></h2><a class="btn btn-dark btn-xl rounded-pill mt-5" role="button" href="#events" style="background-color: rgb(30,32,34);">EXPLORE OUR EVENTS</a></div>
-        </div>
-    </header>
-    <section id="events" style="margin-bottom: 60px;text-align: center;margin-top: 60px;">
-        <div class="container" style="padding-top: 0px;padding-bottom: 40px;background-color: #2b3136;border-radius: 50px;">
-            <h2 class="display-4" style="font-family: GothamRounded-Bold;text-align: center;font-size: 50px;color: #ffffff;margin-right: auto;margin-left: auto;padding-top: 48px;">Upcoming Events</h2>
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-2" style="padding-right: auto;padding-left: auto;">
-                    <div class="p-5" style="height: 250px;">
-                        <h2 class="display-4" style="font-family: GothamRounded-Bold;font-size: 25px;color: #fffff;">A Season of Workshops</h2>
-                        <p style="margin-bottom: 5px;font-family: GothamRounded-Bold;"><strong>POSTPONED</strong></p>
-                        <p style="margin-bottom: 5px;font-family: Conv_nastynasty;">Learn key technical skills in our series of workshops covering all sorts of topics! Alongside learning new things, you'll get the chance to explore some world class facilites.</p><a href="season-of-workshop.html" style="color: rgb(233,37,55);font-family: Conv_nastynasty;">Learn More</a></div>
-                </div>
-                <div class="col-lg-6 order-lg-2" style="padding-right: auto;padding-left: auto;">
-                    <div class="p-5" style="height: 250px;">
-                        <h2 class="display-4" style="font-family: GothamRounded-Bold;font-size: 25px;color: #fffff;">HackSG 2021</h2>
-                        <p style="margin-bottom: 5px;font-family: GothamRounded-Bold;"><strong>TBA</strong></p>
-                        <p style="margin-bottom: 5px;font-family: Conv_nastynasty;">A hackathon focused on teenagers. You can learn to code, build awesome projects, win amazing prizes, &amp; have fun!&nbsp;</p><a href="#" style="color: rgb(233,37,55);font-family: Conv_nastynasty;">More Info Coming Soon</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section style="margin-bottom: 60px;">
-        <div class="container" style="padding-top: 48px;padding-bottom: 48px;background-color: #2b3136;border-radius: 50px;">
-            <h2 class="display-4" style="font-family: GothamRounded-Bold;text-align: center;font-size: 50px;color: #ffffff;margin-right: auto;margin-left: auto;padding-top: 0;padding-bottom: 31px;">Stay Up-to Date</h2>
-            <div class="d-xl-flex align-items-center justify-content-xl-center" style="margin-right: auto;margin-left: auto;"><a class="btn btn-dark btn-xl rounded-pill" role="button" href="https://discord.gg/NeDqubR" style="background-color: rgb(30,32,34);width: 220px;height: 75px;font-family: Conv_nastynasty;margin-right: 10px;margin-bottom: 10px;">DISCORD</a>
-                <a
-                    class="btn btn-dark btn-xl rounded-pill" role="button" href="https://twitter.com/SGStemClub" style="background-color: rgb(30,32,34);width: 220px;height: 75px;font-family: Conv_nastynasty;margin-right: 10px;margin-bottom: 10px;">TWITTER</a><a class="btn btn-dark btn-xl rounded-pill" role="button" href="https://instagram.com/singaporestemclub" style="background-color: rgb(30,32,34);width: 220px;height: 75px;font-family: Conv_nastynasty;margin-right: 10px;margin-bottom: 10px;">INSTAGRAM</a>
-                    <a
-                        class="btn btn-dark btn-xl rounded-pill" role="button" href="https://medium.com/the-singapore-stem-club" style="background-color: rgb(30,32,34);width: 220px;height: 75px;font-family: Conv_nastynasty;margin-right: 10px;margin-bottom: 10px;">OUR BLOG</a>
-            </div>
-        </div>
-    </section>
-    <section style="margin-bottom: 60px;">
-        <div class="container" style="padding-top: 48px;padding-bottom: 48px;background-color: #2b3136;border-radius: 50px;">
-            <h2 class="display-4" style="font-family: GothamRounded-Bold;text-align: center;font-size: 50px;color: #ffffff;margin-right: auto;margin-left: auto;padding-top: 0;padding-bottom: 31px;">Sponsors &amp; Partners</h2>
-            <div class="d-flex d-xl-flex flex-wrap justify-content-xl-center align-items-xl-center" style="padding: 4px;"><img src="assets/img/hcb-logo-original-dark.png" style="height: 80px;margin-right: 20px;margin-bottom: 10px;"><img src="assets/img/Bountie-Arena-New-Logo-500x500.png" style="clip-path: inset(20% 10% 20% 10%);/*clip-path: inset(5% 20% 15% 10%);*/height: 171px;margin-right: 20px;margin-bottom: 10px;">
-                <img
-                    src="assets/img/mlh-logo-white.png" style="height: 90px;margin-right: 20px;margin-bottom: 10px;"><img src="assets/img/github.svg" style="height: 87px;margin-right: 20px;margin-bottom: 10px;"><img src="assets/img/cropped-logo_trehaus-aheadofchange.png" style="clip-path: inset(-10% -10% -10% -10%);background-color: #fff7f7;padding: 20px;height: 90px;margin-right: 20px;width: 110px;">
-                    <img
-                        src="assets/img/banner%20(2).png" style="height: 90px;"></div>
-        </div>
-    </section>
-    <section style="margin-bottom: 60px;"></section><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="border-radius: 15px;background-image: url(&quot;assets/img/cd-top-arrow.svg&quot;);background-color: rgb(233,37,55);" href="#0">Top</a>
-    <footer class="d-lg-flex flex-wrap justify-content-lg-center py-5 bg-black"><p class="text-center text-white d-lg-flex justify-content-lg-center m-0 small" style="font-family: Conv_nastynasty;margin-bottom: 50px;margin-top: 20px;padding: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;width: 500px;margin-right: auto;margin-left: auto;">The Singapore STEM Club is is fiscally sponsored by The Hack Foundation, a 501(c)(3) public charity with the EIN 81-2908499.</p>
+  <body>
+    <header
+      class="masthead text-center text-white"
+      style="
+        -webkit-box-shadow: inset 0px -200px 44px -163px rgba(52, 58, 64, 1);
+        -moz-box-shadow: inset 0px -200px 44px -163px rgba(52, 58, 64, 1);
+        box-shadow: inset 0px -200px 44px -163px rgba(52, 58, 64, 1);
+        filter: blur(0px);
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        min-height: 105vh;
+      "
+    >
+      <div class="masthead-content">
         <div class="container">
-            <div class="d-flex d-xl-flex justify-content-center justify-content-xl-center" style="color: rgb(101,48,48);margin-top: 15px;"><a href="mailto:stemclub@sampoder.com" style="margin-right: 15px;margin-left: 15px;color: rgb(233,37,55);"><i class="icon ion-email" style="font-size: 40px;"></i></a><a href="https://twitter.com/SGStemClub" style="margin-right: 15px;margin-left: 15px;color: rgb(233,37,55);"><i class="icon ion-social-twitter" style="font-size: 40px;"></i></a>
-                <a
-                    href="https://instagram.com/singaporestemclub" style="margin-right: 15px;margin-left: 15px;"><i class="icon ion-social-instagram-outline" style="color: rgb(233,37,55);font-size: 40px;"></i></a><a href="https://github.com/SGStemClub" style="margin-right: 15px;margin-left: 15px;"><i class="icon ion-social-github" style="color: rgb(233,37,55);font-size: 40px;"></i></a></div>
+          <h3
+            class="masthead-heading mb-0"
+            style="font-family: GothamRounded-Bold; font-size: 3rem;"
+          >
+            The Singapore
+          </h3>
+          <h1
+            class="masthead-heading mb-0"
+            style="font-family: GothamRounded-Bold; font-size: 7rem;"
+          >
+            STEM CLUB
+          </h1>
+          <h2
+            class="masthead-subheading mb-0"
+            style="
+              font-family: Conv_nastynasty;
+              font-size: 3em;
+              margin-top: 24px;
+            "
+          >
+            Amazing STEM focused events for secondary students in Singapore
+            by&nbsp;<strong>secondary students.</strong>
+          </h2>
+          <a
+            class="btn btn-dark btn-xl rounded-pill mt-5"
+            role="button"
+            href="#events"
+            style="background-color: rgb(30, 32, 34);"
+            >EXPLORE OUR EVENTS</a
+          >
         </div>
+      </div>
+    </header>
+    <section
+      id="events"
+      style="margin-bottom: 60px; text-align: center; margin-top: 60px;"
+    >
+      <div
+        class="container"
+        style="
+          padding-top: 0px;
+          padding-bottom: 40px;
+          background-color: #2b3136;
+          border-radius: 50px;
+        "
+      >
+        <h2
+          class="display-4"
+          style="
+            font-family: GothamRounded-Bold;
+            text-align: center;
+            font-size: 50px;
+            color: #ffffff;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 48px;
+          "
+        >
+          Upcoming Events
+        </h2>
+        <div class="row align-items-center">
+          <div
+            class="col-lg-6 order-lg-2"
+            style="padding-right: auto; padding-left: auto;"
+          >
+            <div class="p-5" style="height: 250px;">
+              <h2
+                class="display-4"
+                style="
+                  font-family: GothamRounded-Bold;
+                  font-size: 25px;
+                  color: #fffff;
+                "
+              >
+                A Season of Workshops
+              </h2>
+              <p style="margin-bottom: 5px; font-family: GothamRounded-Bold;">
+                <strong>POSTPONED</strong>
+              </p>
+              <p style="margin-bottom: 5px; font-family: Conv_nastynasty;">
+                Learn key technical skills in our series of workshops covering
+                all sorts of topics! Alongside learning new things, you'll get
+                the chance to explore some world class facilites.
+              </p>
+              <a
+                href="season-of-workshop.html"
+                style="color: rgb(233, 37, 55); font-family: Conv_nastynasty;"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-lg-2"
+            style="padding-right: auto; padding-left: auto;"
+          >
+            <div class="p-5" style="height: 250px;">
+              <h2
+                class="display-4"
+                style="
+                  font-family: GothamRounded-Bold;
+                  font-size: 25px;
+                  color: #fffff;
+                "
+              >
+                HackSG 2021
+              </h2>
+              <p style="margin-bottom: 5px; font-family: GothamRounded-Bold;">
+                <strong>TBA</strong>
+              </p>
+              <p style="margin-bottom: 5px; font-family: Conv_nastynasty;">
+                A hackathon focused on teenagers. You can learn to code, build
+                awesome projects, win amazing prizes, &amp; have fun!&nbsp;
+              </p>
+              <a
+                href="#"
+                style="color: rgb(233, 37, 55); font-family: Conv_nastynasty;"
+                >More Info Coming Soon</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="margin-bottom: 60px;">
+      <div
+        class="container"
+        style="
+          padding-top: 48px;
+          padding-bottom: 48px;
+          background-color: #2b3136;
+          border-radius: 50px;
+        "
+      >
+        <h2
+          class="display-4"
+          style="
+            font-family: GothamRounded-Bold;
+            text-align: center;
+            font-size: 50px;
+            color: #ffffff;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 0;
+            padding-bottom: 31px;
+          "
+        >
+          Stay Up-to Date
+        </h2>
+        <div
+          class="d-xl-flex align-items-center justify-content-xl-center"
+          style="margin-right: auto; margin-left: auto;"
+        >
+          <a
+            class="btn btn-dark btn-xl rounded-pill"
+            role="button"
+            href="https://discord.gg/NeDqubR"
+            style="
+              background-color: rgb(30, 32, 34);
+              width: 220px;
+              height: 75px;
+              font-family: Conv_nastynasty;
+              margin-right: 10px;
+              margin-bottom: 10px;
+            "
+            >DISCORD</a
+          >
+          <a
+            class="btn btn-dark btn-xl rounded-pill"
+            role="button"
+            href="https://twitter.com/SGStemClub"
+            style="
+              background-color: rgb(30, 32, 34);
+              width: 220px;
+              height: 75px;
+              font-family: Conv_nastynasty;
+              margin-right: 10px;
+              margin-bottom: 10px;
+            "
+            >TWITTER</a
+          ><a
+            class="btn btn-dark btn-xl rounded-pill"
+            role="button"
+            href="https://instagram.com/singaporestemclub"
+            style="
+              background-color: rgb(30, 32, 34);
+              width: 220px;
+              height: 75px;
+              font-family: Conv_nastynasty;
+              margin-right: 10px;
+              margin-bottom: 10px;
+            "
+            >INSTAGRAM</a
+          >
+          <a
+            class="btn btn-dark btn-xl rounded-pill"
+            role="button"
+            href="https://medium.com/the-singapore-stem-club"
+            style="
+              background-color: rgb(30, 32, 34);
+              width: 220px;
+              height: 75px;
+              font-family: Conv_nastynasty;
+              margin-right: 10px;
+              margin-bottom: 10px;
+            "
+            >OUR BLOG</a
+          >
+        </div>
+      </div>
+    </section>
+    <section style="margin-bottom: 60px;">
+      <div
+        class="container"
+        style="
+          padding-top: 48px;
+          padding-bottom: 48px;
+          background-color: #2b3136;
+          border-radius: 50px;
+        "
+      >
+        <h2
+          class="display-4"
+          style="
+            font-family: GothamRounded-Bold;
+            text-align: center;
+            font-size: 50px;
+            color: #ffffff;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 0;
+            padding-bottom: 31px;
+          "
+        >
+          Sponsors &amp; Partners
+        </h2>
+        <div
+          class="d-flex d-xl-flex flex-wrap justify-content-xl-center align-items-xl-center"
+          style="padding: 4px;"
+        >
+          <img
+            src="assets/img/hcb-logo-original-dark.png"
+            style="height: 80px; margin-right: 20px; margin-bottom: 10px;"
+          /><img
+            src="assets/img/Bountie-Arena-New-Logo-500x500.png"
+            style="
+              clip-path: inset(
+                20% 10% 20% 10%
+              ); /*clip-path: inset(5% 20% 15% 10%);*/
+              height: 171px;
+              margin-right: 20px;
+              margin-bottom: 10px;
+            "
+          />
+          <img
+            src="assets/img/mlh-logo-white.png"
+            style="height: 90px; margin-right: 20px; margin-bottom: 10px;"
+          /><img
+            src="assets/img/github.svg"
+            style="height: 87px; margin-right: 20px; margin-bottom: 10px;"
+          /><img
+            src="assets/img/cropped-logo_trehaus-aheadofchange.png"
+            style="
+              clip-path: inset(-10% -10% -10% -10%);
+              background-color: #fff7f7;
+              padding: 20px;
+              height: 90px;
+              margin-right: 20px;
+              width: 110px;
+            "
+          />
+          <img src="assets/img/banner%20(2).png" style="height: 90px;" />
+        </div>
+      </div>
+    </section>
+    <section style="margin-bottom: 60px;"></section>
+    <a
+      class="cd-top js-cd-top cd-top--fade-out cd-top--show"
+      style="
+        border-radius: 15px;
+        background-image: url('assets/img/cd-top-arrow.svg');
+        background-color: rgb(233, 37, 55);
+      "
+      href="#0"
+      >Top</a
+    >
+    <footer class="d-lg-flex flex-wrap justify-content-lg-center py-5 bg-black">
+      <p
+        class="text-center text-white d-lg-flex justify-content-lg-center m-0 small"
+        style="
+          font-family: Conv_nastynasty;
+          margin-bottom: 50px;
+          margin-top: 20px;
+          padding: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          width: 500px;
+          margin-right: auto;
+          margin-left: auto;
+        "
+      >
+        The Singapore STEM Club is is fiscally sponsored by The Hack Foundation,
+        a 501(c)(3) public charity with the EIN 81-2908499.
+      </p>
+      <div class="container">
+        <div
+          class="d-flex d-xl-flex justify-content-center justify-content-xl-center"
+          style="color: rgb(101, 48, 48); margin-top: 15px;"
+        >
+          <a
+            href="mailto:stemclub@sampoder.com"
+            style="
+              margin-right: 15px;
+              margin-left: 15px;
+              color: rgb(233, 37, 55);
+            "
+            ><i class="icon ion-email" style="font-size: 40px;"></i></a
+          ><a
+            href="https://twitter.com/SGStemClub"
+            style="
+              margin-right: 15px;
+              margin-left: 15px;
+              color: rgb(233, 37, 55);
+            "
+            ><i class="icon ion-social-twitter" style="font-size: 40px;"></i
+          ></a>
+          <a
+            href="https://instagram.com/singaporestemclub"
+            style="margin-right: 15px; margin-left: 15px;"
+            ><i
+              class="icon ion-social-instagram-outline"
+              style="color: rgb(233, 37, 55); font-size: 40px;"
+            ></i></a
+          ><a
+            href="https://github.com/SGStemClub"
+            style="margin-right: 15px; margin-left: 15px;"
+            ><i
+              class="icon ion-social-github"
+              style="color: rgb(233, 37, 55); font-size: 40px;"
+            ></i
+          ></a>
+        </div>
+      </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Bold-BS4-Animated-Back-To-Top.js"></script>
-</body>
-
+  </body>
 </html>
