@@ -1924,3 +1924,7 @@ body {
   background-color: rgb(52,58,64)!important;
   color: #ffffff
 }
+
+html {
+  scroll-behavior: smooth;
+}
