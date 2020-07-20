@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'GothamRounded-Italic';
+	src: url(../fonts/GothamRounded-Italic.otf) format('otf'),
+	url(../fonts/GothamRounded-Italic.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
